@@ -1,16 +1,15 @@
 {
-  "name": "dep",
+  "name": "nested-dep",
   "version": "1.0.0",
   "description": "",
-  "module": "index.mjs",
-  "type": "module",
+  "main": "index.js",
+  "module": "index.esm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21",
-    "semver": "^7.6.2"
+    "double-nested": "file:../double-nested"
   }
 }
